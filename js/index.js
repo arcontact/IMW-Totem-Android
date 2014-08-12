@@ -202,7 +202,7 @@ var	warsztaty = [],
 	}
 	function renderArtykuly(){
 		if(artykuly_loaded) {
-			var per_page = 10;
+			var per_page = 25;
 			var list = document.createElement('ul');
 			var	xmlDoc = $(artykuly).children();
 			var c = $(xmlDoc).find('item');
@@ -328,7 +328,7 @@ var	warsztaty = [],
 					use_warsztaty = sortByKey(_warsztaty,'odleglosc');
 				}
 			}
-			var per_page = 10;
+			var per_page = 20;
 			var page_count = 0;
 			var page_data = 0;
 			var list = document.createElement('ul');
